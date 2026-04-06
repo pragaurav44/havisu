@@ -6,26 +6,27 @@ const gifStages = [
     "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",       // 4 sadder
     "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",             // 5 devastated
     "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif",  // 7 crying runaway
+    "https://media.tenor.com/TJ2tEarI5ioAAAAj/care-love.gif"               // 8 caring
 ]
 
 const noMessages = [
-    "No",
-    "Are you positive? 🤔",
-    "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
-    "Please??? 💔",
-    "Don't do this to me...",
-    "Last chance! 😭",
-    "You can't catch me anyway 😜"
+    "Distract me! 😏",
+    "Come on, I care about you 💛",
+    "I'm here for you 💛",
+    "I'm thinking of your egg-cellent day... 🥚",
+    "You deserve a break, I'm here 💛",
+    "Peak fertility, peak care from me... 😊",
+    "Your ovulation, my focus 🎯💛",
+    "Last chance - I'm not giving up on you! 🚗",
+    "My egg-stra special girl deserves this! 🥚💛"
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+    "Come on, I made this for you 👉👈",
+    "You know I care so much... 💛",
+    "I'm right here with you 🌟",
+    "Your special day deserves this 🥚💛"
 ]
 
 let yesTeasedCount = 0

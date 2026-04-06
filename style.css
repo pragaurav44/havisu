@@ -18,7 +18,7 @@ body {
         radial-gradient(circle at 50% 50%, #fff0f3 0%, transparent 60%);
 }
 
-/* Floating hearts background */
+/* Floating hearts & eggs background */
 .hearts-bg {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -29,7 +29,7 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 💗 💖 💝 💓';
+    content: '💕 💗 🥚 💝 💛';
     position: absolute;
     font-size: 1.5rem;
     opacity: 0.15;
@@ -42,7 +42,7 @@ body {
 .hearts-bg::after {
     animation-delay: 6s;
     left: 60%;
-    content: '💗 💕 💓 💖 💝';
+    content: '💛 🥚 💕 💖 💛';
 }
 
 @keyframes floatHearts {
@@ -64,6 +64,14 @@ h1 {
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(214, 51, 132, 0.2);
     animation: wiggle 2s ease-in-out infinite;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #e91e8c;
+    font-weight: 600;
+    margin-bottom: 20px;
+    opacity: 0.9;
 }
 
 @keyframes wiggle {
